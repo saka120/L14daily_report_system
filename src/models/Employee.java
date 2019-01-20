@@ -31,12 +31,7 @@ import javax.persistence.Table;
             )
 })
 @Entity
-
-
-
 public class Employee {
-
-
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -127,6 +122,3 @@ public class Employee {
         this.delete_flag = delete_flag;
     }
 }
-
-
-
